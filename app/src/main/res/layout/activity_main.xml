@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        />
+        tools:listitem="@layout/shop_item_enabled"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id = "@+id/button_add_shop_item"
